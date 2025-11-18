@@ -1,0 +1,159 @@
+
+
+
+
+/* background image style*/
+.contact-page-bg{
+background-image: url("./assets/images/bc\ 3.avif");
+
+
+}
+/* contact.css */
+
+.card {
+    /* 1. Background ko poori tarah transparent kar dega */
+    background-color: transparent !important; 
+    
+    /* 2. Card par se border aur shadow bhi hata dein, taaki woh image se blend ho jaaye */
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Agar aap card ke body ko bhi transparent karna chahte hain */
+.card-body {
+    background-color: transparent !important;
+}
+/* contact.css */
+
+/* --- Background Image Style (Assuming you kept this) --- */
+.contact-page-bg {
+    /* ... (your existing background image styles) ... */
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* --- Card Styling for Better Readability --- */
+.card {
+    /* Card ko Semi-Transparent Black color dein (Alpha: 0.8) */
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+    
+    /* Box shadow ko thoda sa visible rakhein */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9) !important;
+    
+    /* Optional: Thoda rounded corners, agar pasand ho */
+    border-radius: 10px;
+    border: none; /* Border hata dein */
+}
+
+/* --- Text Color Adjustment --- */
+
+/* Card ke andar ke saare text ko light color dein (White) */
+.card-body, .form-subtext {
+    color: #f8f9fa !important; /* Light Gray/White */
+}
+
+/* Form Labels ko aapka 'warning' color dein */
+.custom-label {
+    color: #ffc107 !important; /* Warning color */
+    font-weight: bold;
+}
+
+/* 'CONTACT US' Heading ka background aur text color wapis set karein */
+.form-heading {
+    /* Background dark tha, ab white text use karein */
+    background-color: #343a40; 
+    color: #ffc107; /* Warning color */
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+/* Simple logo (✉) ka color set karein */
+.simple-logo {
+    font-size: 3rem;
+    color: #ffc107; /* Warning color */
+}
+
+/* --- Input Field Fixes --- */
+
+/* Input aur Textarea fields ko transparent banane se bachein */
+.form-control {
+    /* Fields ko standard White background dein taaki text saaf dikhe */
+    background-color: #fff !important; 
+    
+    /* Text color ko black rakhein */
+    color: #000 !important;
+    
+    /* Border ko halka sa color dein */
+    border: 1px solid #ffc107; 
+}
+
+
+/* --- Submit Button (jaisa pehle tha) --- */
+.custom-submit-btn {
+    background-color: #ffc107; /* Warning color */
+    color: #343a40; /* Dark color */
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.custom-submit-btn:hover {
+    background-color: #ffdc87; /* Thoda lighter on hover */
+    color: #343a40;
+}
+
+
+/* Custom CSS for the specific look from the image */
+
+/* Logo/Icon Styling */
+.simple-logo {
+    font-size: 4em; 
+    /* Orange/Yellow color for the envelope */
+    color: #ff9900; 
+    line-height: 1; /* Space kam karne ke liye */
+}
+
+/* Header Text Styling */
+.form-heading {
+    font-size: 1.6em;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.form-subtext {
+    font-size: 0.9em;
+}
+
+/* Custom Label Styling (Optional, thoda bold/dark karne ke liye) */
+.custom-label {
+    font-weight: 500;
+    color: #555;
+}
+
+/* Submit Button Color as per your image */
+.custom-submit-btn {
+    /* Dark Blue color jaisa image mein hai */
+    background-color: rgba(255, 238, 0, 0.733); 
+    border-color: rgba(255, 238, 0, 0.733);
+    padding: 10px;
+    font-weight: 600;
+}
+
+.custom-submit-btn:hover {
+    background-color: rgba(255, 238, 0, 0.993);
+    border-color: rgba(255, 238, 0, 0.993);
+}
+
+/* Bootstrap form-control input ko thoda rounded/clean look dene ke liye */
+.form-control {
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.card {
+    border-radius: 10px; /* Card ko rounded corners */
+}

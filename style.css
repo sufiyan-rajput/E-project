@@ -1,0 +1,35 @@
+.top-custom {
+    top: 42%;
+}
+
+.row img {
+    height: 350px;
+    border-radius: 13px;
+}
+
+.row {
+    border: 0px;
+}
+
+.btn-custom:focus {
+
+    border: none;
+
+
+
+}
+
+.card p {
+
+    text-align: justify;
+}
+.hvr-col{
+    overflow: hidden !important;
+}
+.img-custom{
+    transition: 1s;
+
+}
+.hvr-col:hover .img-custom {
+    transform: scale(1.1);
+}

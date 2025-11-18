@@ -1,0 +1,42 @@
+/* Body padding to account for fixed navbar */
+body {
+    padding-top: 56px; 
+    background-color: rgba(0, 0, 0, 0.062); /* Light background for lower section */
+    
+}
+
+
+
+.about-hero {
+    /* Height and alignment for the header */
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -56px; /* Header ko navbar ke neeche tak upar khinchne ke liye */
+
+    /* Background (Team Photo + Blue Overlay) */
+    background-image: 
+        /* Dark Blue Overlay (rgba values can be adjusted) */
+        linear-gradient(rgba(0,0, o.4,), rgba(0, 0, 0.4,)), 
+        /* Image URL - Replace 'team-background.jpg' with your photo */
+        URL('/assets/images/card1.jpg'); 
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Content Section Styles */
+.founder-photo-container {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;  
+}
+
+.founder-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
